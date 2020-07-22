@@ -1,0 +1,179 @@
+[
+  {
+    "letter": "A",
+    "terms": [
+      {
+        "title": "Análisis de ciclo de vida del producto",
+        "desciption": "Es el ciclo en que este existe desde su concepción hasta que es abandonado. "
+      },
+      {
+        "title": "Administración de la Base de datos",
+        "desciption": "Motivar la cultura y crear conciencia en el manejo de la base de datos en las organizaciones.  "
+      }
+    ]
+  }, 
+  {
+    "letter": "B",
+    "terms": [
+      {
+        "title": "Benchmarking",
+        "desciption": "Proceso de comparar y medir continuamente una organización con líderes del negocio (globalmente) y obtener información para mejorar desempeño.  "
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "terms": [
+      {
+        "title": "Cadena de valor y sus eslabones",
+        "desciption": "Conjunto de actividades interrelacionadas creadoras de valor. Análisis de actividades, base para el sistema de costos.  "
+      },
+      {
+        "title": "Costeo ABC (Activity Based Costing)",
+        "desciption": "Las actividades se encadenan en conjuntos que forman procesos.  "
+      },{
+        "title": "Cuadro de Mando integral (Balance Scorecard)",
+        "desciption": "Es una herramienta que interrelaciona los indicadores de control tradicionales financieros con otros no financieros, para medir en conjunto los logros de los objetivos estratégicos desde los puntos de: clientes, accionistas, procesos internos y el recurso humano.   "
+      },
+      {
+        "title": "Cualidades de Liderazgo",
+        "desciption": "Habilidades que le permiten al Contador Profesional asumir posición de influencia mediante la consecución y apalancamiento de diversidad de recursos que orientan los problemas y las oportunidades través de la organización.   "
+      }
+    ]
+  },  
+  {
+    "letter": "E",
+    "terms": [
+      {
+        "title": "Experticia profesional",
+        "desciption": "Son las habilidades técnicas profesionales que tienen los contadores y que hacen parte de su capacidad única para entender una organización desde una perspectiva que no tienen otros profesionales.  "
+      }
+    ]
+  },
+  {
+    "letter": "F",
+    "terms": [
+      {
+        "title": "FASB",
+        "desciption": "Financial Accounting Stándard Board. Junta Estándar de Contabilidad Financiera. "
+      },
+      {
+        "title": "FMI",
+        "desciption": "Fondo Monetario Internacional "
+      }
+    ]
+  },
+  {
+    "letter": "I",
+    "terms": [
+      {
+        "title": "IAS",
+        "desciption": "International Standard Accounting. Contabilidad Estándar Internacional."
+      },
+      {
+        "title": "IASC",
+        "desciption": "International Accounting Stándards Committee. Comité Internacional de Estándares de Contabilidad. "
+      },
+      {
+        "title": "IASB",
+        "desciption": "International Accounting Financial Reporting Stándard. Reportes Financieros de Contabilidad Internacional."
+      },
+      {
+        "title": "IFRS",
+        "desciption": "International Financial Reporting Standards. Normas Internacionales de Información Financiera. "
+      },
+      {
+        "title": "Importe",
+        "desciption": "Valor a registrar como resultado de un hecho económico. "
+      },
+      {
+        "title": "Indicadores de Gestión",
+        "desciption": "Establecer “medidores” que reflejen resultados actuales y potenciales. "
+      },
+      {
+        "title": "IOSCO",
+        "desciption": "Organización Internacional de Comisiones de Valores "
+      }
+    ]
+  },  
+  {
+    "letter": "M",
+    "terms": [
+      {
+        "title": "Medición",
+        "desciption": "Proceso de determinación de los importes monetarios por los que se reconocen y llevan contablemente los elementos de los estados financieros, para su inclusión en el balance (estado de situación financiera) y el estado de resultados (estado del resultado integral).  "
+      }
+    ]
+  },
+  {
+    "letter": "N",
+    "terms": [
+      {
+        "title": "NCI",
+        "desciption": "Normas Internacionales de Contabilidad  "
+      },
+      {
+        "title": "NCIF",
+        "desciption": "Normas de Convergencia de Información Financiera "
+      },
+      {
+        "title": "NIIF",
+        "desciption": "Normas Internacionales de Información Financiera "
+      }
+    ]
+  },
+  {
+    "letter": "P",
+    "terms": [
+      {
+        "title": "Perspectiva amplia de Negocios",
+        "desciption": "Entendimiento amplio de las organizaciones, su Industria y las prácticas de contabilidad Gerencial, así como la aplicabilidad.  "
+      },
+      {
+        "title": "Planeamiento estratégico",
+        "desciption": "Enfocado al cumplimiento de la Visión y Misión. "
+      },
+      {
+        "title": "Presupuesto como elemento de control de Gestión",
+        "desciption": "Herramienta de uso de forma  dinámica con el concepto de presupuesto flexible. "
+      }
+    ]
+  },  
+  {
+    "letter": "R",
+    "terms": [
+      {
+        "title": "Reconocimiento",
+        "desciption": "Proceso de incorporación, en el balance (estado de situación financiera) o en el estado de resultados (estado del resultado integral), de una partida que cumpla la definición del elemento correspondiente y que satisfaga los siguientes criterios para su reconocimiento: (a) que sea probable que cualquier beneficio económico asociado con la partida llegue a, o salga de la entidad, y (b) el elemento tiene un costo o valor que pueda ser medido con fiabilidad."
+      }
+    ]
+  },  
+  {
+    "letter": "S",
+    "terms": [
+      {
+        "title": "Subsidiaria",
+        "desciption": "Es una entidad donde la controladora [casa matriz] ha hecho sus inversiones para obtener beneficios en el futuro económico. "
+      }
+    ]
+  },  
+  {
+    "letter": "T",
+    "terms": [
+      {
+        "title": "Target Costing",
+        "desciption": "Constituye una herramienta que trata de asegurar una rentabilidad de la empresa antes de lanzar un producto. Es una técnica de gestión de costos, si el objetivo es conseguir un determinado beneficio, la única forma de lograrlo es a través de la optimización de los costos. "
+      }
+    ]
+  },  
+  {
+    "letter": "V",
+    "terms": [
+      {
+        "title": "Valor económico agregado (EVA)",
+        "desciption": "Medida de rendimiento de la empresa que indica cuánto valor se crea con el capital invertido."
+      }
+    ]
+  }
+
+]

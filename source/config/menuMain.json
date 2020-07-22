@@ -1,0 +1,115 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "microempresas",
+    "title": "1. Identificación de las NIIF para microempresas",
+    "breadcrumb": ["Inicio","tema 1"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.1 Marco conceptual",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.2 Marco legal ",
+        "anchor": "12"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.3 Enfoque a las NIIFs en Colombia ",
+        "anchor": "13"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.4 Características cualitativas  ",
+        "anchor": "14"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.5 Objetivos de los estados financieros ",
+        "anchor": "15"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.6 Adopción por primera vez grupo 3 microempresas (COLGAAP) - ESFA ",
+        "anchor": "16"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.7 Microempresa ",
+        "anchor": "17"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "microempresas",
+        "title": "1.8 Presentación de reportes financieros ",
+        "anchor": "18"
+      }
+    ]
+   },
+
+  {
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "financieros",
+    "title": "2. Fiabilidad en la presentación, revelaciones medición, reconocimiento de activos y pasivos NIC 2 inventarios ",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html"
+  
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "deterioro",
+    "title": "3. Deterioro recuperable",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "base-contable",
+    "title": "4. Base contable de acumulación o devengo",
+    "breadcrumb": ["Inicio","tema 4"],
+    "path": "pages/4-tema.html"
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "correcciones",
+    "title": "5. Correcciones de errores de periodos anteriores",
+    "breadcrumb": ["Inicio","tema 5"],
+    "path": "pages/5-tema.html"
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }
+  
+]
