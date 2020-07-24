@@ -32,17 +32,18 @@ html(lang="es")
                 .row.justify-content-center
                     .col-12.col-sm-10
                         .card.wow.flipInX(data-wow-delay=".4s")
-                            
                             .card-body
-
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', 'main.html#pages/intro.html/')
-                                    +navTemaItem('1', 'Identificación de las NIIF para microempresas', 'main.html#page/microempresas/')
-                                    +navTemaItem('2', 'Principios y conceptos generales de los estados financieros', 'main.html#page/financieros/')
-                                    +navTemaItem('3', 'Deterioro recuperable', 'main.html#page/deterioro/')
-                                    +navTemaItem('4', 'Base contable de acumulación o devengo', 'main.html#page/base-contable/')
-                                    +navTemaItem('5', 'Correcciones de errores de periodos anteriores', 'main.html#page/correcciones/')
-                                    +navTemaItem('question', 'Actividad didáctica', 'main.html#page/actividad-1/')
+                                    +navTemaItem('play', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'Identificación de las NIIF para microempresas', '#tema-1')
+                                    +navTemaItem('2', 'Principios y conceptos generales de los estados financieros', '#tema-2')
+                                    +navTemaItem('3', 'Deterioro recuperable', '#tema-3')
+                                    +navTemaItem('4', 'Base contable de acumulación o devengo', '#tema-4')
+                                    +navTemaItem('5', 'Correcciones de errores de periodos anteriores', '#tema-5')
+                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
@@ -58,7 +59,6 @@ html(lang="es")
                 include pages/4-tema.pug
             #tema-5
                 include pages/5-tema.pug
-                                                            
             #evaluacion
                 include pages/actividad-1.pug
             #glosario
