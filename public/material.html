@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Aplicación de Normas de Información Financiera NIIF para microempresas</title>
+        <meta meta name="description" content="Implementar las normas de información financiera (NIIF) según criterios para Microempresa.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de Aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Índice Temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Fundamentos NIIF para microempresas</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Aplicación de Normas de Información Financiera NIIF para microempresas</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">Implementar las normas de información financiera (NIIF) según criterios para Microempresa.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li> <span>Registrar las operaciones comerciales de las microempresas según la norma de información financiera NIIF para microempresas.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-play"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#pages/intro.html/">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#pages/intro.html/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/microempresas/">Identificación de las NIIF para microempresas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/microempresas/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/financieros/">Principios y conceptos generales de los estados financieros</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/financieros/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">3</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/deterioro/">Deterioro recuperable</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/deterioro/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">4</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/base-contable/">Base contable de acumulación o devengo</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/base-contable/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">5</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/correcciones/">Correcciones de errores de periodos anteriores</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/correcciones/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-question"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/actividad-1/">Actividad didáctica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/actividad-1/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="introduccion">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Introducción </h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body mt-0">
+                                    <p>Las NIF para Microempresas son un compendio de requisitos establecidos desde el gobierno nacional mediante el Decreto 2706 de 2012 con el fin de establecer unos criterios para la conversión de estas organizaciones a las NIIF. Este un paso fundamental para ingresar al mundo globalizado de la economía competitiva, tener la oportunidad de participar en esta dinámica económica acelerada y acceder a la participación de este tipo de empresas en el mercado.</p><br>
+                                    <p>Para las microempresas es necesario adaptarse a estos criterios establecidos internacionalmente lo que implica una disciplina en la clasificación, registro, elaboración de informes y presentación de la información financiera para lograr estandarizar los procesos contables de tal manera que la información financiera sea fiable, veraz y de cuenta del estado real de la organización.</p>
+                                    <div class="embed-responsive embed-responsive-16by9 mt-5"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/jpTXYqvCI2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-1">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>1. Identificación de las NIIF para microempresas</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>La identificación de la NIF para microempresas se realiza mediante el acercamiento al marco legal y conceptual que dan origen al Decreto 2706 de 2012 como instrumento legal que fundamenta su origen e implementación.</p>
+                            <h2 class="mt-5 text-center">Identificación y Clasificación de las NIIF para Colombia</h2><img class="mt-5 img-a img-fluid" src="assets/images/pages/ilustraciones/img1.svg">
+                        </div>
+                    </div>
+                    <div id="11"></div>
+                    <div class="header-ecored">
+                        <h1>1.1 Marco conceptual</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>El Marco Conceptual del IASB fue aprobado por el Consejo del IASC en abril de 1989 para su publicación en julio de 1989, y adoptada por el IASB en abril de 2001. Este marco establece los conceptos que subyacen en la preparación y presentación de estados financieros para los usuarios externos.</p><br>
+                            <p>El marco tiene que ver con: </p><img class="mt-5 img-a img-fluid" src="assets/images/pages/ilustraciones/img2.svg">
+                            <p class="mt-5">Los estados financieros tienen como fin proporcionar información sobre la posición financiera, desempeño y cambios en la situación financiera de una organización que sea útil a una variedad de usuarios al tomar sus decisiones económicas. </p>
+                        </div>
+                    </div>
+                    <div id="12"></div>
+                    <div class="header-ecored">
+                        <h1>1.2 Marco legal </h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Esta dinámica de las normas internacionales de información financiera (NIIF) tiene todo un soporte conceptual y legal mediante la IASB/IFRS y que para Colombia ha sido concebida en tres grupos y tenido la siguiente clasificación:</p>
+                            <h2 class="mt-5 text-center">Estructura de la NIF para Microempresas</h2><img class="mt-5 img-a img-fluid" src="assets/images/pages/ilustraciones/img3.svg">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-6">
+                                    <ul>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Microempresas</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Concepto y principios generales</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Presentación de estados financieros</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Estado de situación financiera</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Estado de resultados</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Inversiones</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Cuentas por cobrar</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Inventarios </h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Propiedades planta y equipo</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Obligaciones financieras y cuentas por pagar</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Obligaciones laborales </h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Ingresos</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Arrendamientos</h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Entes económicos en etapa de formación </h3>
+                                        </li>
+                                        <li class="text-org">
+                                            <h3 class="text-black">Aplicación por primera vez de la norma de información financiera para las microempresas </h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mt-5">Para emitir el decreto de cumplimiento a la NIF para Microempresas se tuvo en cuenta el siguiente marco legal.</p>
+                            <h2 class="mt-5 text-center"></h2>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-10">
+                                    <div class="accordion mt-5" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <p class="mt-3"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        <h3 class="text-center text-black">Ley 590 del 10 de julio de 2000</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <p class="px-5">Por la cual se dictan disposiciones para promover el desarrollo de las micro, pequeñas y medianas empresas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header bg-color-4" id="headingTwo">
+                                                <p class="mt-3"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <h3 class="text-center text-black">Ley 905 del 2 de agosto de 2004</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="card-body bg-color-5">
+                                                    <p class="px-5">Por la cual se modifica la ley 590 de 2000sobre promoción del desarrollo de la micro, pequeña y mediana empresa Colombiana.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header bg-color-4" id="headingThree">
+                                                <p class="mt-3"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <h3 class="text-center text-black">Artículo 75 de la ley 1151 de 2007</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body bg-color-5">
+                                                    <p class="px-5">Por el cual se expide el Plan nacional de desarrollo 2006 - 2010.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header bg-color-4" id="headingFour">
+                                                <p class="mt-3"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                                        <h3 class="text-center text-black">Decreto 1878 de 2008</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse" id="collapseFour" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body bg-color-5">
+                                                    <p class="px-5">Por el cual se modifica parcialmente el Decreto 2649 de 1993.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header bg-color-4" id="headingFive">
+                                                <p class="mt-3"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                                        <h3 class="text-center text-black">Ley 1429 de 2010</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse" id="collapseFive" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body bg-color-5">
+                                                    <p class="px-5">Por la cual se expide la ley de formalización y generación de empleo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header bg-color-4" id="headingSix">
+                                                <p class="mt-3"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                                        <h3 class="text-center text-black">Artículo 43 de la ley 1450 de 2011</h3>
+                                                    </button></p>
+                                            </div>
+                                            <div class="collapse" id="collapseSix" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body bg-color-5">
+                                                    <p class="px-5">Por el cual se expide en Plan Nacional de Desarrollo 2010 - 2014.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><img class="mt-5 img-a img-fluid" src="assets/images/pages/ilustraciones/img4.png">
+                <div class="container">
+                    <div id="13"></div>
+                    <div class="header-ecored">
+                        <h1>1.3 Enfoque a las NIIFs en Colombia </h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Estos estados financieros preparados con este propósito cubren las necesidades comunes de la mayoría de los usuarios. Sin embargo, los estados financieros no proporcionan toda la información que los usuarios pueden necesitar para tomar decisiones económicas, ya que en gran medida reflejan los efectos financieros de sucesos pasados y no necesariamente proporcionan información financiera. </p><br>
+                            <p>Con el fin de cumplir con sus objetivos, los estados financieros se preparan sobre la base de valores devengados. Los estados financieros se preparan normalmente sobre la base de que la entidad es una empresa en marcha y siguen en funcionamiento en el futuro. </p>
+                        </div>
+                    </div>
+                    <div id="14"></div>
+                    <div class="header-ecored">
+                        <h1>1.4 Características cualitativas </h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-12 bg-color-naranja py-4">
+                                    <h3 class="text-center">Son atributos que hacen que la información suministrada en los estados financieros, sea útil a una variedad de usuarios. Las principales características cualitativas son:</h3>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto">
+                                    <p class="text-fz">a</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Comprensibilidad: es necesario que la información financiera sea clara y fiable lo que hace que sea comprendida por una variedad de usuarios.</p>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="text-fz">b</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Relevancia: esta cualidad es esencial porque su importancia le permite ser fundamental en la toma de decisiones económicas siendo clave para evaluar sucesos pasados, presentes y/o futuros.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto">
+                                    <p class="text-fz">c</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Materialidad o Importancia Relativa: la información financiera es material y por tanto relevante, por ello su importancia pues en su esencia permite obtener informes veraces y claros por lo que es muy importante anotar que ella no puede ser omitida y7o errada pues afectará los resultados que implica y por ende la toma de decisiones.</p>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="text-fz">d</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Fiabilidad: esta característica está ligada a la anterior, pues hace referencia a la necesidad de registrar la información real y verazmente sin sufrir adulteraciones para que ella represente lo que verdaderamente es y dio lugar a su realización.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto">
+                                    <p class="text-fz">e</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Esencia sobre forma: las transacciones y/o hechos económicos deben ser registrados de acuerdo a dos criterios su forma legal y realidad económica.</p>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="text-fz">f</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Prudencia: orientada en el registro de los hechos económicos debe realizarse de acuerdo a su valor económico sin sobreestimar activos y pasivos y subestimar ingresos y gastos.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto">
+                                    <p class="text-fz">g</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Integridad: la información debe ser registrada de manera que no supere su relevancia y el costo como límites de la fiabilidad.</p>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="text-fz">h</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Relevancia: esta cualidad es esencial porque su importancia le permite ser fundamental en la toma de decisiones económicas siendo clave para evaluar sucesos pasados, presentes y/o futuros.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center my-5">
+                                <div class="col-auto">
+                                    <p class="text-fz">i</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Comparabilidad: los estados financieros son un instrumento esencial para evaluar lo sucedido y por ellos deben ser comparables de manera que se identifique la tendencia de la situación financiera y el resultado de sus operaciones.</p>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="text-fz">j</p>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <p>Equilibrio entre costos y beneficio: el obtener la información en tiempo real y oportuno no debe exceder los costos de los beneficios que genera la oportunidad de tomar decisiones en el momento requerido.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><img class="my-5 img-a img-fluid" src="assets/images/pages/ilustraciones/img5.png">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-6">
+                                    <p>Los elementos directamente relacionados con la medición de la posición financiera son los activos, pasivos y patrimonio. Estos se definen: </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/viñeta.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Un activo es un recurso controlado por la entidad como resultado de acontecimientos pasados y del que el futuro económico se esperan beneficios que fluyan a la entidad. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/viñeta.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Un pasivo es una obligación presente de la entidad surgida de sucesos pasados, cuya liquidación se espera que resulte en una salida de la entidad de recursos que incorporen beneficios económicos. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/viñeta.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Patrimonio neto es la parte residual de los activos de la entidad, una vez deducidos todos sus pasivos. </p>
+                                </div>
+                            </div>
+                            <h2 class="mt-5 text-center">Los elementos de ingresos y gastos se definen como sigue: </h2>
+                            <div class="row justify-content-center align-items-center my-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img6.png"></div>
+                                <div class="col-12 col-md-6">
+                                    <p>a) Ingresos son los incrementos en los beneficios económicos durante el período contable en forma de entradas o mejoras de los activos o disminuciones de los pasivos que dan como resultado aumentos del patrimonio neto, distintos de los relacionados con las contribuciones de los propietarios.</p><br>
+                                    <p>b) Gastos son los decrementos en los beneficios económicos durante el período contable en forma de salidas o el agotamiento de activos o incremento de pasivos, produciendo una disminución en el patrimonio neto, distintos de los relacionados con las distribuciones a los propietarios.</p><br>
+                                    <p>Una partida que satisfaga la definición de un elemento debe ser reconocido si: a) es probable que cualquier beneficio económico futuro asociado con la partida llegue o salga de la entidad; y b) la partida tiene un costo o valor que pueda medirse con fiabilidad. La medición es el proceso de determinación de los importes monetarios por los que los elementos de los estados financieros deben ser reconocidos y llevados en el balance y cuenta de resultados. Esto implica la selección de la base particular de valoración.</p>
+                                </div>
+                            </div>
+                            <p>El concepto de mantenimiento del capital se refiere a cómo una entidad define el capital que busca mantener. Suministra la conexión entre los conceptos de capital y el concepto de ganancia, porque proporciona el punto de referencia por el cual los beneficios se miden, es un prerrequisito para distinguir entre una entidad retorno sobre el capital y la devolución de capital.</p><br>
+                            <p>Sólo las entradas de activos que excedan las cantidades necesarias para mantener capital pueden ser consideradas como ganancia, y por tanto como rendimiento del capital. Uribe (2011) dice que: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img7.png">
+                        </div>
+                    </div>
+                    <div id="15"></div>
+                    <div class="header-ecored">
+                        <h1>1.5 Objetivos de los estados financieros</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <p>El fin de las normas de información financiera es brindar información fidedigna que evidencie la realidad de cada transacción y/o hecho económico y que sea clara y comprensible por los diferentes usuarios de la información contable.</p><br>
+                                    <p>Ramirez (2017), afima que: “De esta manera el objetivo de los estados financieros, debe ser satisfacer las necesidades y/o los interrogantes de la variedad de usuarios de la información financiera, siendo algunos de </p>
+                                </div>
+                                <div class="col-12 col-md-6"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img8.png"></div>
+                            </div>
+                            <p>ellos propietarios, directores, entidades financieras, acreedores, el Estado, entre otros. Es decir, para unos ese objetivo está relacionado con conocer el resultado de la gestión en sus diferentes variantes como crecimiento, rentabilidad, solvencia, producción, entre otros”. </p>
+                        </div>
+                    </div>
+                    <div id="16"></div>
+                    <div class="header-ecored">
+                        <h1>1.6 Adopción por primera vez grupo 3 microempresas (COLGAAP) - ESFA</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>En la adopción por primera vez para las microempresas se generan cálculos para registrar y/o ajustar en la presentación del Estado de Situación Financiera (ESFA), referenciando la(s) norma(s) a que se deben acoger en cada paso. Se incluye: disponible, certiﬁcaciones – inversiones, deudores, inventarios, gastos pagados por anticipado, resultado de ejercicios anteriores, cargos diferidos, propiedades, planta y equipo, valorizaciones, cuentas por pagar, pasivos por impuestos, revalorización del patrimonio, conciliación patrimonial y presentación del Estado de Situación Financiera (ESFA). </p>
+                        </div>
+                    </div>
+                    <div id="17"></div>
+                    <div class="header-ecored">
+                        <h1>1.7 Microempresa</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Se han considerado microempresa según la Ley 590 de 2000, modificada por la Ley 905 de 2004, sin embargo, el artículo 1 del Decreto 3019 de 2013 estableció que se aplicarán estas NIF las microempresas que cumplan la totalidad de los siguientes requisitos: </p>
+                            <h2 class="text-center my-5">GRUPO 3. MICROEMPRESAS - REQUISITOS</h2>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img10.png"></div>
+                                <div class="col-12 col-md-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img11.png"></div>
+                                <div class="col-12 col-md-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img12.png"></div>
+                                <div class="col-12 col-md-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img13.png"></div>
+                                <div class="col-12 col-md-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img14.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="18"></div>
+                    <div class="header-ecored">
+                        <h1>1.8 Presentación de reportes financieros</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>NIC 1 PRESENTACIÓN DE ESTADOS FINANCIEROS </h2><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img15.png"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img16.png">
+                            <p class="mt-5">Una entidad cuyos estados financieros cumplan las NIIF efectuará, en las notas, una declaración, explícita y sin reservas, de dicho cumplimiento. Una entidad no señalará que sus estados financieros cumplen con las NIIF a menos que satisfagan todos los requerimientos de éstas.</p><br>
+                            <p>Se presume que la aplicación de las NIIF, acompañada de información adicional cuando sea preciso, dará lugar a estados financieros que proporcionen una presentación razonable. Al elaborar los estados financieros, la gerencia evaluará la capacidad que tiene una entidad para continuar en funcionamiento. Una entidad elaborará los estados financieros bajo la hipótesis de negocio en marcha, a menos que la gerencia pretenda liquidar la entidad o cesar en su actividad, o bien no exista otra alternativa más que proceder de una de estas formas. Cuando la gerencia, al realizar esta evaluación, sea consciente de la existencia de incertidumbres importantes, relativas a eventos o condiciones que puedan aportar dudas significativas sobre la posibilidad de que la entidad siga funcionando normalmente, procederá a revelarlas en los estados financieros.</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img17.png">
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/1.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Una entidad presentará por separado cada clase significativa de partidas similares. Una entidad presentará por separado las partidas de naturaleza o función distinta, a menos que no tengan importancia relativa. </p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/2.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Una entidad no compensará activos con pasivos o ingresos con gastos a menos que así lo requiera o permita una NIIF.</p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/3.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Una entidad presentará un juego completo de estados financieros (incluyendo información comparativa) al menos anualmente.</p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/4.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">A menos que las NIIF permitan o requieran otra cosa, una entidad revelará información comparativa respecto del periodo anterior para todos los importes incluidos en los estados financieros del periodo corriente. </p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/5.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Una entidad incluirá información comparativa para la información de tipo descriptivo y narrativo, cuando esto sea relevante para la comprensión de los estados financieros del periodo corriente. </p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/6.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Cuando la entidad modifique la presentación o la clasificación de partidas en sus estados financieros, también reclasificará los importes comparativos, a menos que resulte impracticable hacerlo. </p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/7.png"></div>
+                                <div class="col-6">
+                                    <p class="mb-0">Una entidad identificará claramente los estados financieros y los distinguirá de cualquier otra información publicada en el mismo documento. </p>
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-12 col-md-4">
+                                    <p class="mb-0">La NIC 1 requiere que una entidad presente, en el estado de cambios en el patrimonio, todos los cambios en el patrimonio que proceden de los propietarios. Todos los cambios en el patrimonio </p>
+                                </div>
+                                <div class="col-auto"><img class="img-a my-3 img-fluid" src="assets/images/pages/ilustraciones/img18.png"></div>
+                                <div class="col-12 col-md-4">
+                                    <p class="mb-0">que no proceden de los propietarios (es decir en el resultado integral) se requiere que se presenten en un estado del resultado integral o en dos estados (un estado del resultado separado y un estado del resultado integral). </p>
+                                </div>
+                            </div>
+                            <p class="mt-5">Dentro de los componentes del resultado integral, no está permitido que se presenten en el estado de cambios en el patrimonio. Una entidad reconocerá todas las partidas de ingreso y gasto de un periodo en el resultado a menos que una NIIF requiera o permita otra cosa.</p>
+                            <h2 class="mt-5">En las notas:</h2>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-8 border-radius bg-color-note py-5 px-5">
+                                    <p> a). Presentará información acerca de las bases para la preparación de los estados financieros, y sobre las políticas contables específicas utilizadas de acuerdo con los párrafos 117 a 124.</p><br>
+                                    <p>b). Revelará la información requerida por las NIIF que no haya sido incluida en otro lugar de los estados financieros.</p><br>
+                                    <p>c) Proporcionará información que no se presenta en ninguno de los estados financieros, pero que es relevante para entender a cualquiera de ellos. </p>
+                                </div>
+                            </div>
+                            <p class="mt-5">Siempre que tengan un efecto significativo sobre los importes reconocidos en los estados financieros, una entidad revelará, en el resumen de las políticas contables significativas o en otras notas, los juicios, diferentes de aquéllos que impliquen estimaciones (véase el párrafo 125), que la gerencia haya realizado en el proceso de aplicación de las políticas contables de la entidad.</p><br>
+                            <p>Una entidad revelará información sobre los supuestos realizados acerca del futuro y otras causas de incertidumbre en la estimación al final del periodo sobre el que se informa, que tengan un riesgo significativo de ocasionar ajustes significativos en el valor en libros de los activos o pasivos dentro del periodo contable siguiente. </p><br>
+                            <p>Una entidad revelará información que permita que los usuarios de sus estados financieros evalúen los objetivos, las políticas y los procesos que ella aplica para gestionar el capital. </p><br>
+                            <p>Una entidad revelará información adicional sobre instrumentos financieros con opción de venta clasificados como patrimonio neto.</p>
+                            <h2 class="mt-5 text-center">Algunas características de los Estados Financieros</h2>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img19.png"></div>
+                                <div class="col-12 col-md-6"><strong>Materialidad</strong>
+                                    <p class="mt-0">Evaluar la capacidad que tiene la información de forma individual o en conjunto para influir en las decisiones económicas de los usuarios.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img21.png"></div>
+                                <div class="col-12 col-md-6"><strong>Hipótesis de negocio en marcha</strong>
+                                    <p class="mt-0">Determinar la capacidad que tiene la entidad para continuar en funcionamiento.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img22.png"></div>
+                                <div class="col-12 col-md-6"><strong>Comparabilidad</strong>
+                                    <p class="mt-0">Presentar como mínimo, la información del periodo actual y del anterior, incluyendo todos los importes de los estados financieros respectivos.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img23.png"></div>
+                                <div class="col-12 col-md-6"><strong>Uniformidad en la información</strong>
+                                    <p class="mt-0">La entidad debe guardar una homogeneidad en la estructura y clasificación de las partidas de los estados financieros de periodo a periodo.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img20.png"></div>
+                                <div class="col-12 col-md-6"><strong>Frecuencia de la información</strong>
+                                    <p class="mt-0">Se deben presentar los estados financieros al menos de forma anual.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-8">
+                                    <hr class="bd-hr-yellow">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center my-5">
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img24.png"></div>
+                                <div class="col-12 col-md-6">
+                                    <p>El objetivo de la información financiera con propósito general constituye el fundamento del marco conceptual de estos estados y de otros aspectos que reconoce la entidad como el reconocimiento, medición, presentación e información por revelar los resultados de la gestión que se derivan lógicamente del objetivo básico financiero.</p><br>
+                                    <p>Los estados financieros, con propósito de información general para sus propietarios, acreedores actuales y potenciales y agencias calificadoras de riesgos (S1.2), son la fuente de información para los hombres de negocio.</p><br>
+                                    <p>Su responsabilidad está a cargo del gerente y del contador, quienes deben certificarlos y acompañarlos del informe del revisor fiscal y de gestión de la gerencia para la aprobación de la junta directiva y su respectiva publicación, antes de presentarlos a los órganos de decisión y su respectiva discusión en las juntas de socios o asambleas generales. </p>
+                                </div>
+                            </div>
+                            <p>El ente económico está funcionalmente compuesto por cuatro elementos: los recursos, los procesos, los productos y los clientes, quienes producen los resultados de la gestión medidos en la eficiencia, eficacia y productividad. Los recursos que administra una entidad son variados, tales como: el capital de trabajo, los bienes de capital, inversiones fijas o gastos preoperativos. </p><br>
+                            <p>Los procesos de administración de planta deben estar debidamente documentados y probados con las mejores prácticas de negocio; entre los más relevantes están los protocolos de producción, seguridad industrial, alistamiento de maquinaria y mantenimiento, los cuales deben generar la eficiencia. Las NIIF ofrecen en nuevo lenguaje financiero común para una comunidad globalizada y con un alto grado de conocimiento en los negocios. </p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-8 border-radius bg-color-note py-5 px-5">
+                                    <p>Los estados financieros también muestran los resultados de la gestión llevada a cabo por la gerencia, dan cuenta de la responsabilidad en la gestión de los recursos confiados a la misma (S2.3). </p><br>
+                                    <p>La entidad mantendrá la presentación y clasificación de las partidas de los estados financieros en forma uniforme de un periodo a otro, a menos que se presente un cambio importante en la naturaleza de la actividad y se ponga de manifiesto otra presentación o clasificación (3.11). </p><br>
+                                    <p>A continuación, se presentan los elementos que integran los estados financieros con NIIF para pymes y organizaciones plenas.</p>
+                                </div>
+                            </div>
+                            <h2 class="mt-5 text-center">Elementos de los estados financieros</h2>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img25.png"></div>
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img26.png"></div>
+                            </div>
+                            <p class="mt-5">La entidad presentará por separado cada clase significativa de partidas similares, a menos que tengan importancia relativa (S3.15). El conjunto completo de estados financieros de una entidad incluye:</p>
+                            <ul class="my-5">
+                                <li class="text-org">
+                                    <h3 class="text-black">Estado de Situación Financiera en la fecha sobre la cual se informa.</h3>
+                                </li>
+                                <li class="text-org">
+                                    <h3 class="text-black">Estado del resultado integral o un estado de resultado separado. </h3>
+                                </li>
+                                <li class="text-org">
+                                    <h3 class="text-black">Notas.</h3>
+                                </li>
+                            </ul>
+                            <p>Una entidad debe efectuar en nota una declaración, explícita y sin reservas, de cumplimiento de las NIIF para pymes (S3.3). La gerencia que usa NIIF para pymes incluye en los estados financieros la evaluación de la capacidad de la entidad para continuar en funcionamiento (hipótesis de negocio en marcha) (S3.8). La frecuencia de presentación del juego completo de estados financieros, incluyendo los comparativos, será al menos anual (S3.10).</p>
+                            <h2 class="mt-5 text-center">Objetivos de los Estados Financieros</h2>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-12 col-md-8">
+                                    <h3 class="mt-5">Elementos de los estados financieros </h3>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-stretch mt-5">
+                                <div class="col-12 col-md-4 bg-color-note py-5 px-5 border-radius mr-2">
+                                    <h3 class="mb-5">NIIF para pymes</h3>
+                                    <p>Proporcionar información financiera sobre la situación financiera, el rendimiento y los flujos de efectivo de la entidad que sea útil para la toma de decisiones económicas de usuarios que no están en condiciones de exigir informes a su medida</p>
+                                </div>
+                                <div class="col-12 col-md-4 bg-color-note-1 py-5 px-5 border-radius ml-2">
+                                    <h3 class="mb-5">NIIF plenas</h3>
+                                    <p>Proporcionar información financiera sobre la entidad que informa que sea útil a los inversores, prestamistas y otros acreedores existentes y potenciales para la toma de decisiones.</p>
+                                </div>
+                            </div>
+                            <h2 class="mt-5 text-center">Estado de Situación Financiera</h2>
+                            <p class="mt-5 text-center">Antes conocido como balance general. Este debe incluir como mínimo las siguientes partidas: </p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-12 col-md-6"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img27.png"></div>
+                                <div class="col-12 col-md-6">
+                                    <ul>
+                                        <li class="text-org">
+                                            <p class="text-black">Efectivo y equivalentes al efectivo (S11). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Deudores comerciales y otras cuentas por cobrar (S11). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Activos financieros [sin incluir los importes mostrados en (a), (b), (j) y (k)] (S11 y S12). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Inventarios (S13). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Propiedades, planta y equipo (S17). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Propiedades de inversión registradas al valor razonable con cambios en resultados (S16). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Activos intangibles (S18). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Activos biológicos registrados al costo menos la depreciación acumulada y el deterioro del valor (S34). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Activos biológicos registrados al valor razonable con cambios en resultados (S34). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Inversiones en asociadas (S14). </p>
+                                        </li>
+                                        <li class="text-org">
+                                            <p class="text-black">Rendimiento financiero de la empresa, o resultados del periodo. </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="py-5 px-5 bg-color-note text-center border-radius mt-5">La entidad presentará por separado cada clase significativa de partidas similares, a menos que tengan importancia relativa (S3.15). </p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-10 border-radius-color">
+                                    <div class="row justify-content-center align-items-center py-5">
+                                        <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img28.png"></div>
+                                        <div class="col-8">
+                                            <h2>Tablas anexas que describen:</h2>
+                                            <ul>
+                                                <li class="text-org">
+                                                    <h3 class="text-black">Situación financiera </h3>
+                                                </li>
+                                                <li class="text-org">
+                                                    <h3 class="text-black">Estado de Resultados Integrales </h3>
+                                                </li>
+                                            </ul>
+                                            <p>El estado del resultado integral es el mismo estado de resultados adicionados con otros resultados integrales como ganancias y pérdidas en potencia y que se generan en los siguientes ejercicios contables.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center align-items-center py-5">
+                                        <div class="col-9 bg-color-note-1 py-5 border-radius">
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img29.png"></div>
+                                                <div class="col-8 text-center"><a href="https://unctad.org/es/Docs/diaeed20092_sp.pdf" target="_blank">https://unctad.org/es/Docs/diaeed20092_sp.pdf </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>2. Fiabilidad en la presentación, revelaciones medición, reconocimiento de activos y pasivos NIC 2 inventarios </h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <p>El objetivo de esta Norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta Norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. </p><br>
+                                    <p>También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios. Los inventarios se medirán al costo o al valor neto realizable, según cual sea menor. Valor neto realizable es el precio estimado de venta de un activo en el curso normal de la operación menos los costos estimados para terminar su producción y los necesarios para llevar a cabo la venta. </p>
+                                </div>
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img30.png"></div>
+                            </div>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <p>El costo de los inventarios comprenderá todos los costos derivados de su adquisición y transformación, así como otros costos en los que se haya incurrido para darles su condición y ubicación actuales. El costo de los inventarios será asignado siguiendo el método de primera entrada primera salida (FIFO) o el coste medio ponderado. </p><br>
+                                    <p>La entidad utilizará la misma fórmula de costo para todos los inventarios que tengan una naturaleza y uso similares. Para los inventarios con una naturaleza o uso diferente, puede estar justificada la utilización de fórmulas de costo también diferentes. El costo de los inventarios de productos que no son habitualmente intercambiables entre sí, así como de los bienes y servicios producidos y segregados para proyectos específicos, se determinará a través de la identificación específica de sus costos individuales.</p>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p>Cuando los inventarios sean vendidos, el importe en libros de los mismos se reconocerá como gasto del periodo en el que se reconozcan los correspondientes ingresos de operación. El importe de cualquier disminución de valor, hasta alcanzar el valor neto realizable, así como todas las demás pérdidas en los inventarios, serán reconocidas como gasto en el periodo en que ocurra la disminución o la pérdida. </p><br>
+                                    <p>El importe de cualquier reversión de la disminución de valor que resulte de un incremento en el valor neto realizable, se reconocerá como una reducción en el valor de los inventarios, que hayan sido reconocidos como gasto, en el periodo en que la recuperación del valor tenga lugar. </p>
+                                </div>
+                            </div>
+                            <h2 class="mt-5">NIC 16 PROPIEDADES, PLANTA Y EQUIPO </h2>
+                            <p>El objetivo de esta norma es prescribir el tratamiento contable de propiedades, planta y equipo, de forma que los usuarios de los estados financieros puedan conocer la información acerca de la inversión que la entidad tiene en sus propiedades, planta y equipo, así como los cambios que se hayan producido en dicha inversión. Los principales problemas que presenta el reconocimiento contable de propiedades, planta y equipo son la contabilización de los activos, la determinación de su importe en libros y los cargos por depreciación y pérdidas por deterioro que deben reconocerse con relación a los mismos. </p><br>
+                            <p>Las propiedades, planta y equipo son los activos tangibles que: a) posee una entidad para su uso en la producción o suministro de bienes y servicios, para arrendarlos a terceros o para propósitos administrativos; y b) se esperan usar durante más de un periodo. </p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img31.png">
+                            <p class="mt-5">Un elemento de propiedades, planta y equipo se reconocerá como activo si, y sólo si: a) sea probable que la entidad obtenga los beneficios económicos futuros derivados del mismo; y b) el costo del activo para la entidad pueda ser valorado con fiabilidad. </p><br>
+                            <p>Medición en el reconocimiento: Un elemento de propiedades, planta y equipo, que cumpla las condiciones para ser reconocido como un activo, se medirá</p><br>
+                            <p>por su costo. El costo de un elemento de propiedades, planta y equipo será el precio equivalente al efectivo en la fecha de reconocimiento. Si el pago se aplaza más allá de los términos normales de crédito, la diferencia entre el precio equivalente al efectivo y el total de los pagos se reconocerá como intereses a lo largo del periodo del crédito a menos que tales intereses se capitalicen de acuerdo con la NIC 23.</p><br>
+                            <p>El costo de los elementos de propiedades, planta y equipo comprende:</p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6 bg-color-note px-4 py-4 border-radius">
+                                    <p>Su precio de adquisición, incluidos los aranceles de importación y los impuestos indirectos no recuperables que recaigan sobre la adquisición, después de deducir cualquier descuento o rebaja del precio.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6 bg-color-note px-4 py-4 border-radius">
+                                    <p>Todos los costos directamente relacionados con la ubicación del activo en el lugar y en las condiciones necesarias para que pueda operar de la forma prevista por la gerencia. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6 bg-color-note px-4 py-4 border-radius">
+                                    <p>La estimación inicial de los costos de desmantelamiento o retiro del elemento, así como la rehabilitación del lugar sobre el que se asienta, cuando constituyan obligaciones en las que incurre la entidad como consecuencia de utilizar el elemento durante un determinado periodo, con propósitos distintos del de la producción de inventarios durante tal periodo.</p>
+                                </div>
+                            </div>
+                            <p class="mt-5">Medición después del reconocimiento: La entidad elegirá como política contable el modelo del costo o el modelo de revaluación, y aplicará esa política a todos los elementos que compongan una clase de propiedades, planta y equipo. </p>
+                            <div class="row justify-content-center align-items-stretch mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img32.png"></div>
+                                <div class="col-12 col-md-4 bg-color-note py-5 px-5 border-radius mr-2 border-radius-color-green">
+                                    <p>Modelo de costo: Con posterioridad a su reconocimiento como activo, un elemento de propiedad, planta y equipo se contabilizará por su costo menos la depreciación acumulada y el importe acumulado de las pérdidas por deterioro del valor. </p>
+                                </div>
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img32.png"></div>
+                                <div class="col-12 col-md-4 bg-color-note-1 py-5 px-5 border-radius ml-2 border-radius-color-green">
+                                    <p>Modelo de reevaluación: Con posterioridad a su reconocimiento como activo, un elemento de propiedades, planta y equipo cuyo valor razonable pueda medirse con fiabilidad, se contabilizará por su valor revaluado, que es su valor razonable, en el momento de la revaluación, menos la depreciación acumulada y el importe acumulado de las pérdidas por deterioro de valor que haya sufrido. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5 border-radius row-color-1 py-5 px-5">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <p class="text-white">Las revaluaciones se harán con suficiente regularidad, para asegurar que el importe en libros, en todo momento, no difiera significativamente del que podría determinarse utilizando el valor razonable al final del periodo sobre el que se informa. Si se incrementa el importe en libros de un activo como consecuencia de una revaluación, este aumento se reconocerá directamente en otro resultado integral y se acumulará en el patrimonio, bajo el encabezamiento de superávit de revaluación. Sin embargo, el incremento se reconocerá en el resultado del periodo en la medida en que sea una reversión de un decremento por una revaluación del mismo activo reconocido anteriormente en el resultado del periodo.</p><br>
+                                        <p class="text-white">Cuando se reduzca el importe en libros de un activo como consecuencia de una revaluación, tal disminución se reconocerá en el resultado del periodo. Sin embargo, </p>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <p class="text-white">El método de depreciación utilizado reflejará el patrón con arreglo al cual se espera que sean consumidos, por parte de la entidad, los beneficios económicos futuros del activo. El valor residual de un activo es el importe estimado que la entidad podría obtener actualmente por la disposición del elemento, después de deducir los costos estimados por tal disposición, si el activo ya hubiera alcanzado la antigüedad y las demás condiciones esperadas al término de su vida útil.</p><br>
+                                        <p class="text-white">Para determinar si un elemento de propiedades, planta y equipo ha visto valor, la entidad aplicará la NIC 36 Deterioro del Valor de los activos. El importe en libros de un elemento de propiedades, planta y equipo se dará de baja en cuentas: a) por su disposición; o b) cuando no se espere obtener beneficios económicos futuros por su uso o disposición.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <p class="text-white">la disminución se reconocerá en otro resultado integral en la medida en que existiera saldo acreedor en el superávit de revaluación en relación con ese activo.</p><br>
+                                        <p class="text-white"> Depreciación es la distribución sistemática del importe depreciable de un activo a lo largo de su vida útil. Importe depreciable es el costo de un activo, o el importe que lo haya sustituido, menos su valor residual. Se depreciará de forma separada cada parte de un elemento de propiedades, planta y equipo que tenga un costo significativo con relación al costo total del elemento. El cargo por depreciación de cada periodo se reconocerá en el resultado del periodo, salvo que se haya incluido en el importe en libros de otro activo. </p>
+                                    </div>
+                                    <div class="col-12 col-md-6"> <img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img33.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-3">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>3. Deterioro recuperable</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img34.png"></div>
+                                <div class="col-12 col-md-6">
+                                    <p>El CTPC hace la aclaración que el “valor recuperable y/o deterioro recuperable” está orientado a la pérdida del valor causada por deterioro. Y se establece para revertir el deterioro como se describe en el párrafo 2.36. Al final de cada periodo sobre el que se informa la microempresa evaluará si existe evidencia objetiva de deterioro o de recuperación del valor de los activos según la norma. Cuando exista evidencia objetiva de deterioro del valor, la microempresa reconocerá inmediatamente en cuentas de resultado una pérdida por deterioro de valor. </p><br>
+                                    <p>Para medir la pérdida por deterioro se debe tener en cuenta la diferencia entre el valor en libros del activo y la mejor estimación si el activo llegare a venderse o realizar es lo que contablemente se debe manejar porque al realizar a parir del valor realizable o de venta </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-4">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>4. Base contable de acumulación o devengo</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <p>Una microempresa elaborará sus estados financieros utilizando la base contable de causación (acumulación o devengo). Los efectos de las transacciones y demás sucesos se reconocen cuando ocurren y no cuando se recibe o se paga dinero u otro equivalente al efectivo en los periodos con los cuales se relacionan.</p>
+                                </div>
+                                <div class="col-12 col-md-6"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img35.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-5">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>5. Correcciones de errores de periodos anteriores</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Son errores o correcciones de periodos anteriores las omisiones y inexactitudes de estados financieros de una microempresa que surgen de no emplear, o de utilizar erróneamente la información fiable que:</p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6">
+                                    <p>Estaba disponible cuando los estados financieros para esos periodos estaban autorizados para emitirse.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6">
+                                    <p>Podría esperarse razonablemente que se hubiera conseguido y tenido en cuenta para la elaboración y presentación de esos estados financieros. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-8">
+                                    <p>El efecto de las correcciones de periodos anteriores se reconocerá en resultados del mismo periodo en que el error haya sido detectado. La microempresa deberá revelar la naturaleza del error, el monto de la acción y su efecto para cada uno de los rubros en los estados financieros. </p>
+                                </div>
+                            </div>
+                            <h2 class="mt-5 text-center">NIC 8 POLÍTICAS CONTABLES, CAMBIOS EN CONTABILIDAD </h2>
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/41.png"></div>
+                                <div class="col-9">
+                                    <h3>Las Estimaciones y Errores </h3>
+                                    <p class="mt-5">El objetivo de esta Norma es prescribir los criterios para seleccionar y cambiar políticas contables, junto con el tratamiento contable y la revelación de cambios en las políticas contables, cambios en la contabilidad estimaciones y correcciones de errores. La norma tiene por objeto aumentar la relevancia y fiabilidad de los estados financieros de la entidad, y la comparabilidad de los estados financieros en el tiempo y con los estados financieros de otras entidades. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/42.png"></div>
+                                <div class="col-9">
+                                    <h3>LAS POLÍTICAS CONTABLES </h3>
+                                    <p class="mt-5">Políticas contables son los principios, bases, convenciones, reglas y prácticas aplicadas por la entidad en preparación y presentación de estados financieros.</p><br>
+                                    <p>Cuando una Norma sea específicamente aplicable a una transacción, otro evento o condición, la política o políticas contables aplicadas a esa partida.</p><br>
+                                    <p>se determinarán mediante la aplicación de las NIIF y teniendo en cuenta cualquier Guía de Implementación relevante emitida por el IASB de las NIIF. </p><br>
+                                    <p>En ausencia de una Norma o Interpretación que sea aplicable específicamente a una transacción, otro evento o condición, la gerencia deberá usar su juicio para desarrollar y aplicar una política contable, a fin información que es relevante y confiable. Al hacer la gestión sentencia se refieren a, y considerar la aplicabilidad de las siguientes fuentes en orden descendente: </p>
+                                    <div class="row justify-content-center align-items-center mt-5">
+                                        <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                        <div class="col-6">
+                                            <p>Los requisitos y la orientación en las NIIF se ocupan de cuestiones similares y afines.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center align-items-center mt-5">
+                                        <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                        <div class="col-6">
+                                            <p>Las definiciones, los criterios de reconocimiento y valoración de los activos, pasivos, ingresos y gastos en el Marco. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-5">La entidad seleccionará y aplicará sus políticas contables para transacciones similares y otros eventos y condiciones, a menos que específicamente una NIIF requiera o permita la clasificación de partidas para las que las diferentes políticas puedan ser apropiadas. Si una NIIF requiere o permite esta categorización, una política contable adecuada debe ser seleccionada y aplicada de conformidad a cada categoría.</p><br>
+                            <p>Una entidad cambia una política contable sólo si el cambio: </p><br>
+                            <p>a) es requerida por una NIIF, o b) los resultados en los estados financieros suministren información más relevante y fiable sobre los efectos de transacciones, otros eventos o condiciones sobre la situación financiera de la entidad, el rendimiento financiero o en efectivo los flujos. </p><br>
+                            <p>La entidad contabilizará un cambio en la política contable resultante de la aplicación inicial de las NIIF de conformidad con las disposiciones transitorias específicas, si las hubiere, en que las NIIF. Cuando una entidad cambie una política contable sobre la aplicación inicial de una NIIF que no incluye disposiciones transitorias específicas la aplicación de esta modificación, o cambia una política contable voluntaria, se aplicará el cambio a posteriori. Sin embargo, un cambio en la política contable se aplicará retroactivamente, salvo en la medida en que se impracticable determinar los efectos específicos del período o el efecto acumulado del cambio.</p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/43.png"></div>
+                                <div class="col-9">
+                                    <h3>CAMBIO EN LAS ESTIMACIONES CONTABLES</h3>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-12 col-md-6">
+                                    <p>El uso de estimaciones razonables es una parte esencial de la preparación de los estados financieros y no menoscabar su fiabilidad. Un cambio en una estimación contable es un ajuste del valor en libros de un activo o un pasivo, o el importe del consumo periódico de un activo, que los resultados de la evaluación del estado actual de, y los beneficios futuros esperados y las obligaciones asociadas con los activos y pasivos. Los cambios en la contabilidad resultado de las estimaciones de nueva información o nuevos acontecimientos y, en consecuencia, no son correcciones de errores. </p><br>
+                                    <p>El efecto de un cambio en una estimación contable, se reconocerá de forma prospectiva incluyendo las utilidades o perdidas en el resultado de: a) el período del cambio, si el cambio afecta a ese período sólo, o b) el período del cambio y los futuros, si el cambio afecta a ambos. Antes de errores de ejercicios </p><br>
+                                    <p>Errores de periodos anteriores son las omisiones e inexactitudes en los estados financieros de la entidad para una o más períodos anteriores derivadas de la falta de uso o mal uso de información fiable que: a) estaba disponible cuando los estados financieros para los períodos fueron autorizados para su emisión, y b) podría esperarse razonablemente que se ha conseguido y tenido en cuenta en la preparación y presentación de dichos estados financieros. </p>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p>Tales errores incluyen los efectos de errores aritméticos, errores en la aplicación de políticas contables, o malas interpretaciones de los hechos, y el fraude. Salvo en la medida en que sea impracticable determinar el efecto específico del período o acumulativos del efecto del error, la entidad corregirá los errores materiales del período anterior a posteriori en el primer grupo de estados financieros autorizados para su emisión después de su descubrimiento por:</p><br>
+                                    <p>a) la reexpresión de las cifras comparativas para el período anterior(es) presentado(s) en el que se produjo el error, o b) si el error ocurrió antes del ejercicio inmediatamente anterior, corrigiendo los saldos iniciales de activos, pasivos y patrimonio para el ejercicio inmediatamente anterior. </p><br>
+                                    <p>Omisiones o inexactitudes de partidas son materiales si pueden, individual o colectivamente, influir en las decisiones económicas tomadas por los usuarios sobre la base de los estados financieros. La importancia relativa depende del tamaño y de la omisión o inexactitud, enjuiciada en las circunstancias. El tamaño o la naturaleza del tema, o una combinación de ambas, podría ser el factor determinante. </p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center my-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/44.png"></div>
+                                <div class="col-9">
+                                    <h3>NIC 10 HECHOS OCURRIDOS DESPUÉS DEL PERIODO SOBRE EL QUE SE INFORMA</h3>
+                                </div>
+                            </div>
+                            <p>El objetivo de esta Norma es prescribir: a) cuándo una entidad debería ajustar sus estados financieros por hechos ocurridos después del periodo sobre el que se informa; y b) la información a revelar que una entidad debería efectuar respecto a la fecha en que los estados financieros fueron autorizados para su publicación, así como respecto a los hechos ocurridos después del periodo sobre el que informa. </p><br>
+                            <p>La Norma requiere también que una entidad no debería elaborar sus estados financieros bajo la hipótesis de negocio en marcha, si los hechos ocurridos después del periodo sobre el que informa indican que dicha hipótesis no resulta apropiada. </p><br>
+                            <p class="mb-5">Los hechos ocurridos después del periodo sobre el que informa son todos aquellos eventos, ya sean favorables o desfavorables, que se han producido entre el final del periodo sobre el que informa y la fecha de autorización de los estados financieros para su publicación. Pueden identificarse dos tipos de eventos:</p>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6">
+                                    <p>Aquellos que proporcionan evidencia de las condiciones que existían al final del periodo sobre el que informa (hechos ocurridos después del periodo sobre el que se informa que implican ajuste).</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center mt-5">
+                                <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/select.png"></div>
+                                <div class="col-6">
+                                    <p>Aquellos que son indicativos de condiciones que han aparecido después del periodo sobre el que se informa (hechos ocurridos después del periodo sobre el que se informa que no implican ajuste). Una entidad ajustará los importes reconocidos en sus estados financieros, para reflejar la incidencia de los hechos ocurridos después del periodo sobre el que se informa que impliquen ajustes. </p>
+                                </div>
+                            </div>
+                            <p class="mt-5">Una entidad no ajustará los importes reconocidos en sus estados financieros, para reflejar hechos ocurridos después del periodo sobre el que se informa que no impliquen ajustes. Si hechos ocurridos después del periodo sobre el que se informa que no implican ajuste son materiales, no revelar esta información puede influir en las decisiones económicas que los usuarios puedan tomar sobre la base de los estados financieros.</p><br>
+                            <p>Por consiguiente, una entidad revelará la siguiente información sobre cada categoría significativa de hechos ocurridos después del periodo sobre el que se informa que no implican ajuste: a) la naturaleza del evento; y b) una estimación de sus efectos financieros, o un pronunciamiento sobre la imposibilidad de realizar tal estimación. Si, después del periodo sobre el que se informa, una entidad recibiese información acerca de condiciones que existían al final del periodo sobre el que se informa, actualizará la información a revelar relacionada con esas en función de la información recibida. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="evaluacion">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Actividad didáctica</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="col-8 col-md-5 col-xl-4 mb-5">
+                            <figure><img src="assets/images/pages/actividad/img_actividad.svg" alt=""></figure>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <hr class="line-100 bg-orange">
+                            <div class="text-center p-2">
+                                <h2>¡Pon a prueba tu conocimiento! </h2>
+                                <p>La siguiente actividad tiene como propósito validar los conocimientos adquiridos sobre <strong>Aplicación de Normas de Información Financiera NIIF para microempresas</strong></p><a class="btn btn-colour-Orange" href="media/actividad-1/index.html" target="_blank">Iniciar </a>
+                            </div>
+                            <hr class="line-100 bg-orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Análisis de ciclo de vida del producto:</strong>es el ciclo en que este existe desde su concepción hasta que es abandonado.</p>
+                        <p><strong class="mr-2">Administración de la Base de datos:</strong>motivar la cultura y crear conciencia en el manejo de la base de datos en las organizaciones.</p>
+                        <p> <strong class="mr-2">Benchmarking:</strong>proceso de comparar y medir continuamente una organización con líderes del negocio (globalmente) y obtener información para mejorar desempeño. </p>
+                        <p> <strong class="mr-2">Cadena de valor y sus eslabones:</strong>conjunto de actividades interrelacionadas creadoras de valor. Análisis de actividades, base para el sistema de costos.</p>
+                        <p> <strong class="mr-2">Costeo ABC (Activity Based Costing):</strong>las actividades se encadenan en conjuntos que forman procesos.</p>
+                        <p> <strong class="mr-2">Cuadro de Mando integral (Balance Scorecard):</strong>es una herramienta que interrelaciona los indicadores de control tradicionales financieros con otros no financieros, para medir en conjunto los logros de los objetivos estratégicos desde los puntos de: clientes, accionistas, procesos internos y el recurso humano. </p>
+                        <p> <strong class="mr-2">Cualidades de Liderazgo:</strong>habilidades que le permiten al Contador Profesional asumir posición de influencia mediante la consecución y apalancamiento de diversidad de recursos que orientan los problemas y las oportunidades través de la organización.</p>
+                        <p> <strong class="mr-2">Experticia profesional:</strong>son las habilidades técnicas profesionales que tienen los contadores y que hacen parte de su capacidad única para entender una organización desde una perspectiva que no tienen otros profesionales. "</p>
+                        <p> <strong class="mr-2">FASB:</strong>Financial Accounting Stándard Board. Junta Estándar de Contabilidad Financiera.</p>
+                        <p> <strong class="mr-2">FMI:</strong>Fondo Monetario Internacional.</p>
+                        <p> <strong class="mr-2">IAS:</strong>International Standard Accounting. Contabilidad Estándar Internacional.</p>
+                        <p> <strong class="mr-2">IASC:</strong>International Accounting Stándards Committee. Comité Internacional de Estándares de Contabilidad. </p>
+                        <p> <strong class="mr-2">IASB:</strong>International Financial Reporting Standards. Normas Internacionales de Información Financiera.</p>
+                        <p> <strong class="mr-2">Importe:</strong>valor a registrar como resultado de un hecho económico.</p>
+                        <p> <strong class="mr-2">Indicadores de Gestión:</strong>establecer “medidores” que reflejen resultados actuales y potenciales.</p>
+                        <p> <strong class="mr-2">IOSCO:</strong>Organización Internacional de Comisiones de Valores.</p>
+                        <p> <strong class="mr-2">Medición:</strong>proceso de determinación de los importes monetarios por los que se reconocen y llevan contablemente los elementos de los estados financieros, para su inclusión en el balance (estado de situación financiera) y el estado de resultados (estado del resultado integral).</p>
+                        <p> <strong class="mr-2">NCI:</strong>Normas Internacionales de Contabilidad.</p>
+                        <p> <strong class="mr-2">NCIF:</strong>Normas de Convergencia de Información Financiera.</p>
+                        <p> <strong class="mr-2">NIIF:</strong>Normas Internacionales de Información Financiera.</p>
+                        <p> <strong class="mr-2">Perspectiva amplia de Negocios:</strong>entendimiento amplio de las organizaciones, su Industria y las prácticas de contabilidad Gerencial, así como la aplicabilidad.</p>
+                        <p> <strong class="mr-2">Planeamiento estratégico:</strong>Enfocado al cumplimiento de la Visión y Misión.</p>
+                        <p> <strong class="mr-2">Presupuesto como elemento de control de Gestión:</strong>herramienta de uso de forma dinámica con el concepto de presupuesto flexible.</p>
+                        <p> <strong class="mr-2">Reconocimiento:</strong>proceso de incorporación, en el balance (estado de situación financiera) o en el estado de resultados (estado del resultado integral), de una partida que cumpla la definición del elemento correspondiente y que satisfaga los siguientes criterios para su reconocimiento: (a) que sea probable que cualquier beneficio económico asociado con la partida llegue a, o salga de la entidad, y (b) el elemento tiene un costo o valor que pueda ser medido con fiabilidad.</p>
+                        <p> <strong class="mr-2">Subsidiaria:</strong>es una entidad donde la controladora [casa matriz] ha hecho sus inversiones para obtener beneficios en el futuro económico.</p>
+                        <p> <strong class="mr-2">Target Costing:</strong>constituye una herramienta que trata de asegurar una rentabilidad de la empresa antes de lanzar un producto. Es una técnica de gestión de costos, si el objetivo es conseguir un determinado beneficio, la única forma de lograrlo es a través de la optimización de los costos. </p>
+                        <p> <strong class="mr-2">medida de rendimiento de la empresa que indica cuánto valor se crea con el capital invertido. </strong></p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Autor, (año del documento o material), Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material ( Video, capítulo de libro, articulo, otro) </th>
+                                    <th class="text-center">Enlace del Recurso o Archivo del documento o material </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Guía de Implementación Relevante emitida por IASB de las NIIF</strong></td>
+                                    <td>Documento</td>
+                                    <td> <a href="https://www.nicniif.org/files/u1/Manual_del_procedimiento.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Decreto 2706 de 2012</strong></td>
+                                    <td>Documento</td>
+                                    <td> <a href="https://niif.com.co/decreto-2706-2012/marco-tecnico-nif-grupo-3" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Directrices para la Contabilidad e Información Financiera de las Pequeñas y Mediana Empresas, orientación nivel 3</strong></td>
+                                    <td>Documento </td>
+                                    <td> <a href="https://unctad.org/es/Docs/diaeed20092_sp.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>NIIF para Microempresas – NIIF para Microempresas con ejercicios de aplicación</strong></td>
+                                    <td>Documento</td>
+                                    <td> <a href="http://www.unilibre.edu.co/bogota/pdfs/2017/NIF-MICROEMPRESAS.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar </a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <ol>
+                        <li>
+                            <p> Fierro, M. Á. M. (2015). Contabilidad general con enfoque niif para las pymes (5a. ed.). Retrieved from <a href="https://ebookcentral-proquest-com.bdigital.sena.edu.co" target="_blank">https://ebookcentral-proquest-com.bdigital.sena.edu.co</a></p>
+                        </li>
+                        <li>
+                            <p> Godoy, R. (2018). Adopción por primera vez a las niif-esfa : Plenas, pymes y microempresas. Retrieved from <a href="https://ebookcentral-proquest-com.bdigital.sena.edu.co" target="_blank">https://ebookcentral-proquest-com.bdigital.sena.edu.co</a></p>
+                        </li>
+                        <li>
+                            <p> MINCIT, (2012). Decreto 2706 de 2012. Página Web Normas de Información Financiera, www.niif.com.co: <a href="https://niif.com.co/decreto-2706-2012/marco-tecnico-nif-grupo-3" target="_blank">https://niif.com.co/decreto-2706-2012/marco-tecnico-nif-grupo-3</a></p>
+                        </li>
+                        <li>
+                            <p> MinCIT, (2013). Guía general de aplicación por primera vez del marco técnico normativo de información financiera para las microempresas. Página web<a href="http://www.comunidadcontable.com/BancoMedios/Documentos%20PDF/guia%20implementaci%C3%B3n%20por%20primera%20vez%20microempresas%202.pdf" target="_blank">http://www.comunidadcontable.com/BancoMedios/Documentos%20PDF/guia%20implementaci%C3%B3n%20por%20primera%20vez%20microempresas%202.pdf</a></p>
+                        </li>
+                        <li>
+                            <p> Ramírez, (2017). NIIF para Microempresas. Normas de Información Financiera para Microempresas con ejercicios de aplicación. Universidad Libre. Bogotá y Cali. Grupo de Investigación, Gestión y Apoyo a Mipymes. Página web Universidad Libre de Colombia <a href="http://www.unilibre.edu.co/bogota/pdfs/2017/NIF-MICROEMPRESAS.pdf." target="_blank">http://www.unilibre.edu.co/bogota/pdfs/2017/NIF-MICROEMPRESAS.pdf.</a></p>
+                        </li>
+                        <li>
+                            <p> Uribe, M. L. R. (2011). Enfoque a las normas internacionales de contabilidad en colombia : Niifs. Retrieved from <a href="https://ebookcentral-proquest-com.bdigital.sena.edu.co" target="_blank">https://ebookcentral-proquest-com.bdigital.sena.edu.co </a></p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzon </strong><br /> <span class="text-small">Lider del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br /><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br /><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Julián Andrés Sánchez Torres</strong><br />
+                            <strong>Rafael Orlando López Venegas</strong><br /> <span class="text-small">Experto temático<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Ministerio de Justicia</span></p>
+                        <p class="footer-texto mb-2"><strong>Oscar Absalón Guevara</strong><br /> <span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Gestión Industrial </span></p>
+                        <p class="footer-texto mb-2"><strong>Luis Fernando Botero Mendoza</strong><br /> <span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica </span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"> <strong>José Jaime Luis Tang Pinzón</strong><br />
+                            <strong>Yazmin Rocio Figueroa Pacheco</strong><br />
+                            <strong>Martha Isabel Martínez Vargas</strong><br /><span class="text-small">Diseño Web & Producción Audiovisual<br /></span></p>
+                        <p class="footer-texto"><strong>Edgar Mauricio Cortes García</strong><br /> <span class="text-small">Desarrollo Front-End<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br /><span class="text-small">Regional Santander </span></p>
+                        <h4 class="footer-subtitulo-2 mt-5">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"><strong>Kely Alejandra Quiros Duarte </strong><br /> <span class="text-small">Administrador repositorio de contenidos y gestores de repositorio.<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br /><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px" /></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
